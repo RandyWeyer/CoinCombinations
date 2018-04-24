@@ -61,10 +61,13 @@ namespace CoinCombinations
         if (TotalChange > .25)
         {
           TotalChange-=.25;
+          continue;
         } else if (TotalChange > .1) {
           TotalChange-=.1;
+          continue;
         } else if (TotalChange > .05) {
           TotalChange-=.05;
+          continue;
         } else {
           TotalChange-=.01;
         }
